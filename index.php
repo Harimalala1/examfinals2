@@ -9,6 +9,7 @@
 </head>
 <body>
    <main>
+    
         <div class="bg-light rounded shadow col-md-5 case_index p-5 mt-4">
             <h3 class="text-center">Log in</h3>
             <form action="./page/traitement_log.php" method="get" class="mb-4">
