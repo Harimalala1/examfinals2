@@ -9,14 +9,15 @@
 </head>
 <body>
    <main>
-        <div  class="bg-light rounded shadow col-md-5 case_index">
-            <form action="./page/traitement_log.php" method="get">
-                <input type="text" name="nom" placeholder="Nom">
-                <input type="email" name="email" placeholder="email">
-                <input type="submit" value="Se connecter">
+        <div class="bg-light rounded shadow col-md-5 case_index p-5 mt-4">
+            <h3 class="text-center">Log in</h3>
+            <form action="./page/traitement_log.php" method="get" class="mb-4">
+                <input type="text" name="nom" placeholder="Nom" class="col-md-10 ms-4 mb-4">
+                <input type="email" name="email" placeholder="email" class="col-md-10 ms-4 mb-4">
+                <input type="submit" value="Se connecter" class="col-md-7 sub">
             </form>
+            <a href="./page/insciption.php" class=" text-white sin p-2 rounded">S'inscrire</a>
         </div>
-        <a href="./page/insciption.php">S'inscrire</a>
     </main>
 </body>
 </html>
