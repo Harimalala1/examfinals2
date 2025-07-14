@@ -27,9 +27,8 @@ $taille = 0;
                 <table  class="table table-striped table-hover shadow text-center">
                     <thead>
                         <tr>
-                            <th>Departement</th>
-                            <th>Nom manager</th>
-                            <th>Prenom manager</th>
+                            <th>Categorie</th>
+                            <th>Objet</th>
                         </tr>
                     </thead>
         
