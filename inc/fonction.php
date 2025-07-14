@@ -3,7 +3,7 @@
 
     function all_objet()
     {
-        $sql ="SELECT * FROM projet_finalS2_objet";
+        $sql ="SELECT * FROM v_objet_categorie";
         $requet = mysqli_query(dbconnect(),$sql);
         $result = array();
         while($all_departement = mysqli_fetch_assoc($requet))
@@ -13,6 +13,7 @@
         mysqli_free_result($requet);
         return $result;   
     }
+
 
     function id_membre_connecte($nom)
     {

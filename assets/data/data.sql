@@ -111,3 +111,6 @@ INSERT INTO projet_finalS2_emprunt (id_objet, id_membre, date_emprunt, date_reto
 INSERT INTO projet_finalS2_emprunt (id_objet, id_membre, date_emprunt, date_retour) VALUES (35, 2, '2025-03-10', '2025-03-17');
 
 INSERT INTO projet_finalS2_emprunt (id_objet, id_membre, date_emprunt, date_retour) VALUES (4, 3, '2025-03-15', '2025-03-22');
+
+CREATE VIEW v_objet_categorie AS SELECT oc.nom_categorie AS Categorie, o.nom_objet AS objet FROM 
+projet_finalS2_categorie_objet oc JOIN projet_finalS2_objet o ON oc.id_categorie = o.id_categorie;

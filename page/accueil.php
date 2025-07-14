@@ -19,8 +19,30 @@ $taille = 0;
 </head>
 <body>
     <?php include('header.php')?>
-    <?php for ($i=0; $i < $taille; $i++) { ?>
-        <h3><?php echo $objets[$i]['nom_objet']?></h3>
-    <?php }?>
+
+    <section class="col-md-12">
+            <h1 class="text-center">Liste des Departements et ces managers en cours</h1>
+            
+            <div class="container">
+                <table  class="table table-striped table-hover shadow text-center">
+                    <thead>
+                        <tr>
+                            <th>Departement</th>
+                            <th>Nom manager</th>
+                            <th>Prenom manager</th>
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <?php for ($i = 0; $i < $taille; $i++) {?>
+                                <tr>
+                                    <td><?php echo $objets[$i]['Categorie']?> </td>
+                                    <td><?php echo $objets[$i]['objet'] ?></td>
+                                </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 </body>
 </html>
