@@ -1,0 +1,18 @@
+Version 1
+Créer la base de données:(ok)
+membre (id_membre, nom , date de naissance, genre, émail, ville, mdp, image_profil) (ok)
+categorie_objet (id_categorie, nom_categorie ) (ok)
+objet (id_objet , nom_objet , id_categorie, id_membre) (ok)
+images_objet(id_image, id_objet, nom_image) (ok)
+emprunt(id_emprunt, id_objet, id_membre, date_emprunt, date_retour) (ok)
+Insérer les données de test(ok)
+4  membres(ok)
+4 catégories ( esthétique, bricolage, mécanique , cuisine )(ok)
+10 objets par membre à répartir sur les catégories (ok)
+10 emprunts (ok)
+
+Page à créer
+Login et inscription(ok)
+profil
+Liste des objets , (avec date de retour si emprunt en cours )
+Filtre par catégorie 

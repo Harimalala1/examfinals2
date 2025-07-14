@@ -1,0 +1,17 @@
+body{
+    background-color: #E8EAF6; 
+}
+/* header */
+.nav_case{
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 16px;
+}
+.nav_case:hover{
+    background-color: #7986CB;
+    color: white;
+    border: 1px solid #4a58a1;
+}
+.case_index{
+    background-color: white;
+    margin: auto;
+}
